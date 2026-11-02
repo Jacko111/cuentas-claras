@@ -6,7 +6,8 @@
     "build": "tsc -b && vite build",
     "preview": "vite preview",
     "iconos": "pwa-assets-generator",
-    "verificar-pwa": "node scripts/verificar-pwa.mjs"
+    "verificar-pwa": "node scripts/verificar-pwa.mjs",
+    "test:e2e": "playwright test"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
     "react-dom": "^19.3.1"
   },
   "devDependencies": {
+    "@playwright/test": "^1.64.1",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
     "@vite-pwa/assets-generator": "^2.0.0",
