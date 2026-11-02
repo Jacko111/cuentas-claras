@@ -1,0 +1,33 @@
+# Dependencias y builds
+node_modules/
+dist/
+dev-dist/
+coverage/
+
+# Secretos: nunca al repo
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Supabase local
+supabase/.temp/
+supabase/.branches/
+
+# Playwright
+test-results/
+playwright-report/
+playwright/.cache/
+playwright/.auth/
+
+# Importador Splitwise (datos crudos, pueden tener info personal)
+importacion/salida/
+
+# Editor / SO
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.log
