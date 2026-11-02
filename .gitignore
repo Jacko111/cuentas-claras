@@ -31,3 +31,6 @@ importacion/salida/
 .DS_Store
 Thumbs.db
 *.log
+
+# Config local de Claude Code
+.claude/
